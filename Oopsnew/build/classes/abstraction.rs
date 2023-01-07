@@ -1,0 +1,4 @@
+Animal
+Horse
+abstraction
+Chicken

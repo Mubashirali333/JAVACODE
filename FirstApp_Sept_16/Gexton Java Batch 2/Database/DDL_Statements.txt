@@ -1,0 +1,44 @@
+Database provides us a langugae through which we can send and recieve data from database.
+Structured Query Language (SQL)
+SQL is divided in 4 parts
+1. Data Definition Language (DDL)
+	it contains statements for creating, altering (modifying) and dropping (removing) the objects like database, table, views, stored procedures etc.
+Create
+alter
+drop
+
+create database db_java2
+
+create table tbl_Students(stid int (4) primary key, stname varchar(40) not null, email varchar(40))
+
+drop table tbl_Students
+
+adding a column to email to tbl_Students
+
+ALTER TABLE tbl_students
+ADD COLUMN email varchar(25)
+
+
+deleting a column email from tbl_Students
+
+ALTER TABLE tbl_students
+DROP COLUMN email 
+
+============================================
+2. Data Manipulation Language
+It is use to fetch data from database using select statement from a table(s)
+It is use to insert, update, delete data from a table(s)
+
+select	=> is use to get (fetch) data from a database
+insert	=> is use to add a new record into a database
+update	=> is use to modify field(s) of a record(s) in a table
+delete	=> is use to delete (remove) record(s) from a table(s)
+
+
+
+
+
+
+
+
+

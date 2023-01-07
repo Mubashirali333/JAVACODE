@@ -1,0 +1,11 @@
+create employees class having following 
+private members and also create public methods for getting and setting values to these private members.
+
+1. employeeid
+2. empoyeename
+3. designation
+4. salary
+
+then create another class PSOEmployees with main method. create at least three empolyees class objects and assign them values at runtime.
+
+

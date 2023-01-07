@@ -1,0 +1,64 @@
+2. Data Manipulation Language
+It is use to fetch data from database using select statement from a table(s)
+It is use to insert, update, delete data from a table(s)
+
+select	=> is use to get (fetch) data from a database
+insert	=> is use to add a new record into a database
+update	=> is use to modify field(s) of a record(s) in a table
+delete	=> is use to delete (remove) record(s) from a table(s)
+
+
+a) Select Query
+
+fetches all the data (rows and columns) from the table tbl_Students
+
+here * means all the columns
+select * from tbl_students
+=======================================
+
+fetch few columns from the table tbl_students
+select studentid, studentname, fathername from tbl_students
+
+=======================================
+Assigning aliasis to column name
+
+select studentid as 'Student Roll No', 
+studentname as 'Student Name',
+fathername as 'Father Name' from tbl_students
+
+
+=======================================
+fetch few columns from tbl_students where student id is 1
+select studentid, studentname, fathername from tbl_students
+where studentid = 1
+
+=======================================
+select * from tbl_students
+where studentid = 1
+
+=======================================
+
+SELECT * FROM tbl_registration WHERE loginid = 'salman' and password = 'abc'
+
+
+========================================
+SELECT max(studentid) from tbl_students
+SELECT min(studentid) from tbl_students
+SELECT count(studentid) from tbl_students
+SELECT sum(studentid) from tbl_students
+SELECT avg(studentid) from tbl_students
+
+SELECT max(studentid), MIN(studentid), COUNT(studentid), sum(studentid) FROM `tbl_students`
+
+
+=========================================
+
+b) Insert Query
+
+inserting data into selected columns of a table
+
+INSERT into tbl_students (studentid, studentname, fathername, gender, course)
+VALUES (4, 'Zubair Ahmed', 'Ali Arshad', 'Male', 'Software Engineering')
+
+
+

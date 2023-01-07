@@ -1,0 +1,19 @@
+Main Menu
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+System.out.println("Select a Menu Option : ");
+int op = input.nextint();
+
+System.out.print("Enter first number :);
+int num1;
+
+System.out.print("Enter first number :);
+int num2;
+
+
+
+
+
